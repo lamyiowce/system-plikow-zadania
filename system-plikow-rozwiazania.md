@@ -71,3 +71,19 @@ rozmiar bloku | maksymalny rozmiar pliku | maksymalny rozmiar partycji
 --------------|--------------------------|----------------------------
 
 
+## D1
+Wiedząc, że w systemie ext4 numery logiczne bloków są 32-bitowe, a numery fizyczne bloków są 48-bitowe, wypełnij tabelkę jak w zadaniu 3 dla rozmiaru bloku 1, 2 i 4 KiB.
+
+rozmiar bloku | maksymalny rozmiar pliku | maksymalny rozmiar partycji
+--------------|--------------------------|----------------------------
+1 KiB 		    | 4 TiB = 2^32 * rozmiar bloku | 256 PiB = 2^48 * rozmiar bloku (bo nry bloków są 48-bit)
+--------------|--------------------------|----------------------------
+2 KiB 		    | 8 TiB                    | 512 PiB
+--------------|--------------------------|----------------------------
+4 KiB 		    | 16 TiB                   | 1024 PiB
+--------------|--------------------------|----------------------------
+8 KiB         | ? TiB                    | ?? TiB
+--------------|--------------------------|----------------------------
+
+
+
